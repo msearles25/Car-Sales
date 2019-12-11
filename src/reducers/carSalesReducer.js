@@ -38,8 +38,8 @@ export const carSalesReducer = (state = initialState, action) => {
                 additionalPrice: state.additionalPrice - action.payload.price,
                 car: {
                     ...state.car,
-                    features: state.car.features.filter(item => {
-                        return item.id !== action.payload.id;
+                    features: state.car.features.filter(feature => {
+                        return feature.id !== action.payload.id;
                     })
                 },
                 additionalFeatures: [...state.additionalFeatures, action.payload]

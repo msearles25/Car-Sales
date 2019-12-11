@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { removeFeature } from './actions/carSalesActions';
+import { removeFeature } from '../actions/carSalesActions';
 
 import AddedFeature from './AddedFeature';
 
