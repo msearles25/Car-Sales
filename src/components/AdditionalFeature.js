@@ -1,4 +1,5 @@
 import React from 'react';
+import {ADD_ADDITIONAL_FEATURES} from './reducers/carSalesReducer';
 
 const AdditionalFeature = props => {
   return (
